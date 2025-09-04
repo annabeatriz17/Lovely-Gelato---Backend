@@ -14,6 +14,7 @@ CREATE TABLE couples (
     id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     description TEXT NOT NULL,
+    photo VARCHAR(100) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -39,4 +40,4 @@ INSERT INTO flavors (name, description, couple_inspiration) VALUES
     ('Sorvete de Mel e Nozes', 'Doce e poderoso, como Hera e Zeus.', 'Hera e Zeus'),
     ('Sorvete de Framboesa', 'Refrescante e apaixonante, como Jack e Rose.', 'Jack e Rose'),
     ('Sorvete de Menta com Chocolate', 'Divertido e inesperado, como Shrek e Fiona.', 'Shrek e Fiona'),
-    ('Sorvete de Baunilha', 'Clássico e amado por todos, como Mickey e Minnie.', 'Mickey e Minnie');
+    ('Sorvete de Baunilha', 'Clássico e amado por todos, como Mickey e Minnie.', 'Mickey e Minnie.');
