@@ -3,7 +3,20 @@ const pool = require('../config/database');
 const FlavorController = {
     async getAll(req, res) {
         try {
-            const result = await pool.query('SELECT * FROM flavors');
+            const { name, description } = req.query;
+            let query = 'SELECT * FROM flavors';
+            let params = [];
+            if (name) {
+                query = 'SELECT * FROM flavors WHERE name ILIKE $1';
+                params = [`%${name}%`];
+            }
+            if (description) {
+                query = params.length
+                    ? query + ' AND description ILIKE $2'
+                    : 'SELECT * FROM flavors WHERE description ILIKE $1';
+                params.push(`%${description}%`);
+            }
+            const result = await pool.query(query, params);
             res.status(200).json(result.rows);
         } catch (error) {
             console.error('Erro ao buscar sabores:', error);
