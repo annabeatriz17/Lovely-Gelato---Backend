@@ -69,6 +69,7 @@ LovelyMatch é uma sorveteria temática que une amor, romance e experiências l�
 </details>
 
 ---
+
 <details>
   <summary><b>🧩FUNCIONALIDADES </b></summary>
 
@@ -112,6 +113,7 @@ Lovely-Gelato-Backend/
 - 🗂️ Git & GitHub
 
 </details>
+
 ---
 
 ## Sobre a Autora
