@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="media/logo-sorveteria.png" width="180" alt="Logo LovelyMatch">
+  <img src="media/logo-sorveteria.png" width="280" alt="Logo LovelyMatch">
   
   <h1>LovelyMatch – Sorveteria do Amor</h1>
   <p><strong>Projeto final | SENAI Valinhos | Técnico em Desenvolvimento de Sistemas</strong></p>
@@ -46,10 +46,6 @@ LovelyMatch é uma sorveteria temática que une amor, romance e experiências l�
       <li>Preencha com seus dados locais (usuário, senha, nome do banco, porta etc).</li>
     </ul>
   </li>
-  <li><strong>Testando conexão com o banco:</strong><br>
-    <pre><code class="language-sh">npm run test:db</code></pre>
-    <span>(opcional, se houver script de teste de conexão)</span>
-  </li>
   <li><strong>Inicie o servidor:</strong><br>
     <pre><code class="language-sh">npm run dev</code></pre>
   </li>
@@ -69,7 +65,7 @@ LovelyMatch é uma sorveteria temática que une amor, romance e experiências l�
 </details>
 
 ---
-
+<details>
 ## Funcionalidades
 - Listagem de sabores e casais
 - Detalhes de cada casal e sabor
@@ -78,7 +74,7 @@ LovelyMatch é uma sorveteria temática que une amor, romance e experiências l�
 - Sem necessidade de login
 - Visual moderno e responsivo
 - Gamificação e micro-feedbacks
-
+</details>
 
 ---
 
@@ -99,20 +95,19 @@ Lovely-Gelato-Backend/
 ```
 
 ---
-
-## Tecnologias Utilizadas
+<details>
+## Tecnologias Utilizadas: 🚀
 - Node.js
 - Express
 - PostgreSQL
 - JavaScript
 - HTML/CSS (front-end)
 - Git & GitHub
-
+</details>
 ---
 
-## Sobre o Autor
-- **Anna Beatriz Ribeiro Valentim**
-- Projeto desenvolvido para o curso Técnico de Desenvolvimento de Sistemas – SENAI Valinhos
+## Sobre a Autora
+- **Projeto desenvolvido para o curso Técnico de Desenvolvimento de Sistemas – SENAI Valinhos**
 - Instrutores: Felipe Silva Santos, Felipe de Mattos Mamprim
 
 ---
