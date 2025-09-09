@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="media/logo-sorveteria.png" width="280" alt="Logo LovelyMatch">
+  <img src="media/logo-sorveteria.png" width="280" height="280">
   
   <h1>LovelyMatch – Sorveteria do Amor</h1>
   <p><strong>Projeto final | SENAI Valinhos | Técnico em Desenvolvimento de Sistemas</strong></p>
@@ -70,7 +70,8 @@ LovelyMatch é uma sorveteria temática que une amor, romance e experiências l�
 
 ---
 <details>
-## Funcionalidades
+  <summary><b>FUNCIONALIDADES</b></summary>
+
 - Listagem de sabores e casais
 - Detalhes de cada casal e sabor
 - Criação de novos casais e sabores
@@ -78,6 +79,7 @@ LovelyMatch é uma sorveteria temática que une amor, romance e experiências l�
 - Sem necessidade de login
 - Visual moderno e responsivo
 - Gamificação e micro-feedbacks
+
 </details>
 
 ---
@@ -100,13 +102,15 @@ Lovely-Gelato-Backend/
 
 ---
 <details>
-## Tecnologias Utilizadas: 🚀
+  <summary><b>TECNOLOGIAS UTILIZADAS 🚀</b></summary>
+
 - Node.js
 - Express
 - PostgreSQL
 - JavaScript
 - HTML/CSS (front-end)
 - Git & GitHub
+
 </details>
 ---
 
