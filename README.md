@@ -103,7 +103,7 @@ Lovely-Gelato-Backend/
 
 ---
 <details>
-  <summary><b> TECNOLOGIAS UTILIZADAS</b></summary>
+  <summary><b>📁TECNOLOGIAS UTILIZADAS</b></summary>
 
 - Node.js
 - Express
