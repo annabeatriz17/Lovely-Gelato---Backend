@@ -20,53 +20,38 @@ LovelyMatch é uma sorveteria temática que une amor, romance e experiências l�
 <ol>
   <li><strong>Pré-requisitos:</strong><br>
     <ul>
-    
       <li>Node.js instalado (<a href="https://nodejs.org/">download</a>)</li>
       <li>PostgreSQL instalado (<a href="https://www.postgresql.org/download/">download</a>)</li>
       <li>Git instalado (<a href="https://git-scm.com/downloads">download</a>)</li>
     </ul>
-    ```
   </li>
   <li><strong>Clone o repositório:</strong><br>
-  ```sh
-    <code>git clone https://github.com/annabeatriz17/Lovely-Gelato-Backend.git</code>
+    <pre><code class="language-sh">git clone https://github.com/annabeatriz17/Lovely-Gelato-Backend.git</code></pre>
   </li>
-  ```
   <li><strong>Acesse a pasta do projeto:</strong><br>
-  ```sh
-    <code>cd Lovely-Gelato-Backend</code>
-    ```
+    <pre><code class="language-sh">cd Lovely-Gelato-Backend</code></pre>
   </li>
   <li><strong>Instale as dependências:</strong><br>
-  ```sh
-    <code>npm install</code>
-    ```
+    <pre><code class="language-sh">npm install</code></pre>
   </li>
   <li><strong>Configure o banco de dados:</strong><br>
-  ```sh
     <ul>
       <li>Abra o PostgreSQL e crie um banco de dados (ex: <code>lovelyMatch</code>).</li>
       <li>Execute o script <code>src/database/schema.sql</code> para criar as tabelas.</li>
     </ul>
-    ```
   </li>
   <li><strong>Configure o arquivo <code>.env</code>:</strong><br>
-  ```sh
     <ul>
       <li>Copie o arquivo <code>.env.example</code> para <code>.env</code> (se existir).</li>
       <li>Preencha com seus dados locais (usuário, senha, nome do banco, porta etc).</li>
     </ul>
-    ```
   </li>
   <li><strong>Testando conexão com o banco:</strong><br>
-  ```sh
-    <code>npm run test:db</code> <br> (opcional, se houver script de teste de conexão)
-    </li>
-    ```
+    <pre><code class="language-sh">npm run test:db</code></pre>
+    <span>(opcional, se houver script de teste de conexão)</span>
+  </li>
   <li><strong>Inicie o servidor:</strong><br>
-  ```sh
-    <code>npm run dev</code>
-    ```
+    <pre><code class="language-sh">npm run dev</code></pre>
   </li>
   <li><strong>Acesse a aplicação:</strong><br>
     <ul>
