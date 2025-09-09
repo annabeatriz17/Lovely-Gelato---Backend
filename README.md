@@ -1,59 +1,96 @@
 <div align="center">
-  <img src="media/Logo-lovelymatch.png" width="180" alt="Logo LovelyMatch">
-  <h1 style="color:#e75480;">🍦 <span style="color:#a3d2ca;">LovelyMatch</span> <span style="color:#f7cac9;">– Sorveteria do Amor</span> 💖</h1>
-  <img src="https://em-content.zobj.net/source/microsoft-teams/363/ice-cream_1f366.png" width="80" alt="Sorvete">
+  <img src="media/Logo-lovelymatch.png" width="250" alt="Logo LovelyMatch">
+  
+  <h1>LovelyMatch – Sorveteria do Amor</h1>
+  <p><strong>Projeto final | SENAI Valinhos | Técnico em Desenvolvimento de Sistemas</strong></p>
 </div>
 
 ---
 
-## ✨ <span style="color:#f7cac9;">Introdução</span>
-LovelyMatch é um projeto desenvolvido como trabalho final do curso Técnico de Desenvolvimento de Sistemas do SENAI Valinhos. Trata-se de uma sorveteria temática que une amor, romance e experiências lúdicas em torno de sabores exclusivos. Cada sorvete representa um casal famoso, fictício ou simbólico, e o sabor é inspirado na personalidade e história do casal.
-
-O objetivo é proporcionar uma experiência divertida, interativa e memorável para os visitantes, explorando criatividade, gamificação e interação social.
+## Introdução
+LovelyMatch é uma sorveteria temática que une amor, romance e experiências lúdicas em torno de sabores exclusivos. Cada sorvete representa um casal famoso, fictício ou simbólico, e o sabor é inspirado na personalidade e história do casal. O objetivo é proporcionar uma experiência divertida, interativa e memorável para os visitantes, explorando criatividade, gamificação e interação social.
 
 ---
 
-## 🚀 <span style="color:#a3d2ca;">Como instalar e executar o projeto</span>
+## Instalação rápida
 
-<details>
-  <summary><strong>Passo a passo</strong></summary>
+```sh
+# Clone o repositório
+git clone https://github.com/annabeatriz17/Lovely-Gelato-Backend.git
 
-1. <strong>Clone o repositório:</strong>
-   ```sh
-   git clone https://github.com/annabeatriz17/Lovely-Gelato-Backend.git
-   ```
+# Acesse a pasta
+cd Lovely-Gelato-Backend
 
-2. <strong>Acesse a pasta do projeto:</strong>
-   ```sh
-   cd Lovely-Gelato-Backend
-   ```
+# Instale as dependências
+npm install
 
-3. <strong>Instale as dependências:</strong>
-   ```sh
-   npm install
-   ```
+# Configure o banco de dados
+# (crie o banco e execute src/database/schema.sql)
 
-4. <strong>Configure o banco de dados:</strong>
-   - Crie um banco de dados PostgreSQL conforme as variáveis do arquivo `.env`.
-   - Execute o script `src/database/schema.sql` para criar as tabelas necessárias.
+# Configure o arquivo .env
+# (preencha com seus dados locais)
 
-5. <strong>Configure o arquivo `.env`:</strong>
-   - Preencha as variáveis de ambiente conforme seu ambiente local.
+# Inicie o servidor
+npm run dev
+```
 
-6. <strong>Inicie o servidor:</strong>
-   ```sh
-   npm run dev
-   ```
+O backend estará disponível na porta definida no `.env` (padrão: 3000).
 
-7. <strong>Acesse a aplicação:</strong>
-   - O backend estará disponível na porta definida no `.env` (padrão: 3000).
+---
 
-</details>
+## Funcionalidades
+- Listagem de sabores e casais
+- Detalhes de cada casal e sabor
+- Criação de novos casais e sabores
+- Experiência lúdica e interativa
+- Sem necessidade de login
+- Visual moderno e responsivo
+- Gamificação e micro-feedbacks
+
+---
+
+## Estrutura do Projeto
+```
+Lovely-Gelato-Backend/
+├── src/
+│   ├── config/
+│   ├── controllers/
+│   ├── database/
+│   ├── models/
+│   └── routes/
+├── media/
+│   └── Logo-lovelymatch.png
+├── .env
+├── package.json
+└── README.md
+```
+
+---
+
+## Tecnologias Utilizadas
+- Node.js
+- Express
+- PostgreSQL
+- JavaScript
+- HTML/CSS (front-end)
+- Git & GitHub
+
+---
+
+## Sobre o Autor
+- **Anna Beatriz Ribeiro Valentim**
+- Projeto desenvolvido para o curso Técnico de Desenvolvimento de Sistemas – SENAI Valinhos
+- Instrutores: Felipe Silva Santos, Felipe de Mattos Mamprim
+
+---
+
+## Sobre
+Este projeto é apenas para fins educacionais e não possui licença comercial.
 
 ---
 
 <div align="center">
-  <b style="color:#e75480;">Pronto! O LovelyMatch estará rodando localmente. Aproveite essa experiência doce e divertida! 🍨💑</b>
+  <b>Pronto! O LovelyMatch estará rodando localmente.<br>Experimente, crie e compartilhe sabores únicos! 🍨</b>
 </div>
 
 ---
