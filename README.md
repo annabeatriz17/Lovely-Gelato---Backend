@@ -16,7 +16,7 @@ LovelyMatch é uma sorveteria temática que une amor, romance e experiências l�
 
 
 <details>
-  <summary>Como Instalar e Executar o projeto</summary>
+  <summary><b>COMO INSTALAR E EXECUTAR O PROJETO</b></summary>
 <ol>
   <li><strong>Pré-requisitos:</strong><br>
     <ul>
@@ -45,6 +45,10 @@ LovelyMatch é uma sorveteria temática que une amor, romance e experiências l�
       <li>Copie o arquivo <code>.env.example</code> para <code>.env</code> (se existir).</li>
       <li>Preencha com seus dados locais (usuário, senha, nome do banco, porta etc).</li>
     </ul>
+  </li>
+  <li><strong>Testando conexão com o banco:</strong><br>
+    <pre><code class="language-sh">npm run test:db</code></pre>
+    <span>(opcional, se houver script de teste de conexão)</span>
   </li>
   <li><strong>Inicie o servidor:</strong><br>
     <pre><code class="language-sh">npm run dev</code></pre>
