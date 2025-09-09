@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="media/Logo-lovelymatch.png" width="180" alt="Logo LovelyMatch">
+  <img src="media/logo-sorveteria.png" width="180" alt="Logo LovelyMatch">
   
   <h1>LovelyMatch – Sorveteria do Amor</h1>
   <p><strong>Projeto final | SENAI Valinhos | Técnico em Desenvolvimento de Sistemas</strong></p>
@@ -14,39 +14,59 @@ LovelyMatch é uma sorveteria temática que une amor, romance e experiências l�
 
 ## Guia Completo de Instalação e Uso
 
+
+<details>
+  <summary>Como Instalar e Executar o projeto</summary>
 <ol>
   <li><strong>Pré-requisitos:</strong><br>
     <ul>
+    
       <li>Node.js instalado (<a href="https://nodejs.org/">download</a>)</li>
       <li>PostgreSQL instalado (<a href="https://www.postgresql.org/download/">download</a>)</li>
       <li>Git instalado (<a href="https://git-scm.com/downloads">download</a>)</li>
     </ul>
+    ```
   </li>
   <li><strong>Clone o repositório:</strong><br>
+  ```sh
     <code>git clone https://github.com/annabeatriz17/Lovely-Gelato-Backend.git</code>
   </li>
+  ```
   <li><strong>Acesse a pasta do projeto:</strong><br>
+  ```sh
     <code>cd Lovely-Gelato-Backend</code>
+    ```
   </li>
   <li><strong>Instale as dependências:</strong><br>
+  ```sh
     <code>npm install</code>
+    ```
   </li>
   <li><strong>Configure o banco de dados:</strong><br>
+  ```sh
     <ul>
       <li>Abra o PostgreSQL e crie um banco de dados (ex: <code>lovelyMatch</code>).</li>
       <li>Execute o script <code>src/database/schema.sql</code> para criar as tabelas.</li>
     </ul>
+    ```
   </li>
   <li><strong>Configure o arquivo <code>.env</code>:</strong><br>
+  ```sh
     <ul>
       <li>Copie o arquivo <code>.env.example</code> para <code>.env</code> (se existir).</li>
       <li>Preencha com seus dados locais (usuário, senha, nome do banco, porta etc).</li>
     </ul>
+    ```
   </li>
   <li><strong>Testando conexão com o banco:</strong><br>
-    <code>npm run test:db</code> <br> (opcional, se houver script de teste de conexão)</li>
+  ```sh
+    <code>npm run test:db</code> <br> (opcional, se houver script de teste de conexão)
+    </li>
+    ```
   <li><strong>Inicie o servidor:</strong><br>
+  ```sh
     <code>npm run dev</code>
+    ```
   </li>
   <li><strong>Acesse a aplicação:</strong><br>
     <ul>
@@ -61,6 +81,7 @@ LovelyMatch é uma sorveteria temática que une amor, romance e experiências l�
     </ul>
   </li>
 </ol>
+</details>
 
 ---
 
@@ -73,15 +94,6 @@ LovelyMatch é uma sorveteria temática que une amor, romance e experiências l�
 - Visual moderno e responsivo
 - Gamificação e micro-feedbacks
 
-<details>
-  <summary>▶️ Mais informações sobre funcionalidades</summary>
-  <ul>
-    <li>Os sabores são inspirados em casais famosos, fictícios ou simbólicos.</li>
-    <li>O usuário pode criar combinações personalizadas de casal e sabor.</li>
-    <li>O sistema não exige login, tornando a experiência mais acessível.</li>
-    <li>Feedbacks visuais e animações tornam a navegação divertida.</li>
-  </ul>
-</details>
 
 ---
 
