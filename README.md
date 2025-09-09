@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="media/logo-sorveteria.png" width="280" height="280">
+  <img src="media/logo-sorveteria.png" width="350" height="350">
   
   <h1>LovelyMatch – Sorveteria do Amor</h1>
   <p><strong>Projeto final | SENAI Valinhos | Técnico em Desenvolvimento de Sistemas</strong></p>
